@@ -18,7 +18,7 @@ To run the automated tests, you will need to have the following installed:
 
 1. Clone the repo
 
-        git clone https://github.com/andypalacio/qa-automation-Cypress.git
+        git clone https://github.com/andypalacio/Aiwyn-AndresPalacio.git
 
 2. Install NPM packages
 
@@ -37,4 +37,4 @@ Otherwise, you can run them headless using
 ## Contact
 
 * Andres Palacio - andresepalacio@gmail.com
-* Project Link: https://github.com/andypalacio/qa-automation-Cypress
+* Project Link: https://github.com/andypalacio/Aiwyn-AndresPalacio
