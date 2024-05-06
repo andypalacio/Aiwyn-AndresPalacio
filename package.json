@@ -1,0 +1,28 @@
+{
+  "name": "aiwyn-andrespalacio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andypalacio/qa-automation-Cypress.git"
+  },
+  "author": "Andres Palacio",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andypalacio/qa-automation-Cypress/issues"
+  },
+  "homepage": "https://github.com/andypalacio/qa-automation-Cypress#readme",
+  "devDependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^20.0.5",
+    "@bahmutov/cypress-esbuild-preprocessor": "^2.2.0",
+    "cypress": "^13.8.1",
+    "cypress-cucumber-preprocessor": "^4.3.1"
+  },
+  "stepDefinitions": [
+    "cypress/e2e/**/.js"
+  ]
+}
