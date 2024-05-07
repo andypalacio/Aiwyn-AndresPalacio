@@ -119,3 +119,15 @@ Given(/^the user Adds a new Payment method$/, () => {
     });
 
 });
+When(/^the user clicks on the 'Pay' button$/, () => {
+    cy.get('[data-cy="pay-now"]').click()
+});
+Then(/^the user can see a confirmation banner$/, () => {
+    cy.wait(5000)
+    cy.get('.h2-500').should('be.visible',{timeout: 10000}).and('contain.text', 'Thanks for paying!');
+    cy.get('[data-cy="close-modal-button"]').click();
+});
+Then(/^the user can see the payment on the Payments page$/, () => {
+    cy.visit('client-portal/main/payments');
+    cy.get('[data-cy="payment-invoiceNumber"]').contains(invoiceID).should('be.visible',{timeout: 10000});
+});
