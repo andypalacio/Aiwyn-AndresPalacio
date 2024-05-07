@@ -28,5 +28,6 @@ module.exports = defineConfig({
     projectId: "bfi83g",
     supportFile: false,
     setupNodeEvents,
+    baseUrl: "https://qa.aiwyn-dev.app/"
   }
 })
